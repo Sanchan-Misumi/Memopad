@@ -20,7 +20,7 @@ class MemoViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        titleTextField.text = saveDate.object(forKey: "keytitle") as? String
+        titleTextField.text = saveDate.object(forKey: "title") as? String
         contentTextView.text = saveDate.object(forKey: "content") as? String
         titleTextField.delegate = self
         

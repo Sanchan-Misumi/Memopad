@@ -14,6 +14,7 @@
 		EE5680171F6C8A920081B0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5680151F6C8A920081B0F6 /* LaunchScreen.storyboard */; };
 		EE5680221F6C8A920081B0F6 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5680211F6C8A920081B0F6 /* MemoPadTests.swift */; };
 		EE56802D1F6C8A920081B0F6 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56802C1F6C8A920081B0F6 /* MemoPadUITests.swift */; };
+		EE56803C1F6C8AEF0081B0F6 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE56803B1F6C8AEF0081B0F6 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE5680281F6C8A920081B0F6 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE56802C1F6C8A920081B0F6 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		EE56802E1F6C8A920081B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE56803B1F6C8AEF0081B0F6 /* MemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EE5680131F6C8A920081B0F6 /* Assets.xcassets */,
 				EE5680151F6C8A920081B0F6 /* LaunchScreen.storyboard */,
 				EE5680181F6C8A920081B0F6 /* Info.plist */,
+				EE56803B1F6C8AEF0081B0F6 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				EE56800F1F6C8A920081B0F6 /* ViewController.swift in Sources */,
 				EE56800D1F6C8A920081B0F6 /* AppDelegate.swift in Sources */,
+				EE56803C1F6C8AEF0081B0F6 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
